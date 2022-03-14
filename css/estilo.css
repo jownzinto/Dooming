@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* RESPONSIVIDADE */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body{
+        margin-bottom: 55px;
+    }
+    
+    header nav ul{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        z-index: 110;
+
+        background-color: #000000;
+        height: 50px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav p{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #time{
+        padding: 0 40px;
+    }
+    .cards{
+        position: static;
+        margin: 40px auto;
+    }
+    .paragrafo{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .sobre-paragrafo{
+        width: 350px;
+    }
+    .sobre-image{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #303233;
+}
+ul{
+    list-style: none;
+}
+/* HEADER */
+header{
+    height: calc(100vh - 120px);
+    background: no-repeat center/cover url('https://images.unsplash.com/photo-1481886756534-97af88ccb438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 50px;
+    padding: 15px;
+    font-weight: bold;
+}
+header nav p{
+    font-weight: bold;
+    font-size: 150%;
+    margin: auto 25px;
+}
+header nav ul{
+    display: flex;
+    margin: auto 25px;
+}
+header nav ul li{
+    display: flex;
+    list-style: none;
+    margin: auto 25px;
+    font-size: 17px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 130%;
+}
+.btn{
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    font-size: 80%;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: .7s;
+    padding: 15px;
+}
+/* TIME */
+#time{
+    background-color: #282d2e;
+}
+.team-image{
+    width: 250px;
+    height: 300px;
+}
+.cards{
+    width: 250px;
+    height: 420px;
+    color: white;
+    border-radius: 15px;
+    background-color: #293d3a;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    display: inline-flex;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.title{
+    padding: 12px;
+    text-align: center;
+}
+.time{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.paragrafo{
+    text-align: center;
+    padding-top: 10px;
+}
+/* SOBRE */
+#sobre{
+    padding-top: 15px;
+    background-color: #303233;
+}
+.sobre-text{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sobre-image{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.sobre-paragrafo{
+    width: 960px;
+    color: white;
+    font-size: 110%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/* CONTATO */
+#contato{
+    background-color: #282d2e;
+    padding-top: 10px;
+}
+.contato-text{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+iframe{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* FOOTER */
+#footer{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.conteudo{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
